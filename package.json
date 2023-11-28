@@ -8,7 +8,7 @@
     "dev": "remix dev --manual",
     "start": "remix-serve ./build/index.js",
     "typecheck": "tsc",
-    "lint": "eslint --max-warnings 0 --cache-location ./node_modules/ .cache/eslint ."
+    "lint": "eslint --max-warnings 0 --cache --cache-location ./node_modules/.cache/eslint ."
   },
   "dependencies": {
     "@remix-run/css-bundle": "^2.3.1",
