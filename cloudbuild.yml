@@ -2,10 +2,10 @@ steps:
   # Docker Build
   - name: 'gcr.io/cloud-builders/docker'
     args: ['build', '-t',
-           'us-central1-docker.pkg.dev/${PROJECT_ID}/analysis-ichinosemaru',
+           'us-central1-docker.pkg.dev/calcium-petal-406513/analysis-ichinosemaru',
            '.']
 
   # Docker Push
   - name: 'gcr.io/cloud-builders/docker'
     args: ['push',
-           'us-central1-docker.pkg.dev/${PROJECT_ID}/analysis-ichinosemaru']
+           'us-central1-docker.pkg.dev/calcium-petal-406513/analysis-ichinosemaru']
